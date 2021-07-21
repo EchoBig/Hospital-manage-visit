@@ -1,5 +1,5 @@
 -- --------------------------------------------------------
--- Host:                         118.174.29.26
+-- Host:                         111.111.111.11
 -- Server version:               5.7.25-0ubuntu0.18.04.2 - (Ubuntu)
 -- Server OS:                    Linux
 -- HeidiSQL Version:             11.0.0.5919
@@ -30,7 +30,7 @@ CREATE TABLE IF NOT EXISTS `detail_visit` (
   `status` int(1) NOT NULL DEFAULT '1' COMMENT '3=ข้อมูลไม่ถูกต้อง,4=ยกเลิก',
   `edit_time` timestamp NOT NULL DEFAULT '0000-00-00 00:00:00',
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=7568 DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB AUTO_INCREMENT=1 DEFAULT CHARSET=utf8;
 
 -- Data exporting was unselected.
 
@@ -41,7 +41,7 @@ CREATE TABLE IF NOT EXISTS `num_detail_visit` (
   `Id_user` int(11) NOT NULL,
   `date_input` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=3290 DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB AUTO_INCREMENT=1 DEFAULT CHARSET=utf8;
 
 -- Data exporting was unselected.
 
@@ -64,7 +64,7 @@ CREATE TABLE IF NOT EXISTS `user` (
   `dp` varchar(60) DEFAULT NULL,
   `level` int(1) DEFAULT '1' COMMENT '0=Admin,1=Users',
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=102 DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB AUTO_INCREMENT=1 DEFAULT CHARSET=utf8;
 
 -- Data exporting was unselected.
 
